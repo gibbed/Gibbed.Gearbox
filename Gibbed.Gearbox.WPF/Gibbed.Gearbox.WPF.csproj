@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+    <Company>Gibbed</Company>
+    <Authors>Gibbed</Authors>
+    <Description>http://gib.me/</Description>
+    <Copyright>Copyright © Gibbed 2019</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/gibbed/Gibbed.Gearbox/</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro" Version="1.5.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro.Contrib, Version=1.0.1.0, Culture=neutral, PublicKeyToken=23b8ce3a92a0a872, processorArchitecture=MSIL">
+      <HintPath>..\..\..\other\wpf\Caliburn.Micro.Contrib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+</Project>
